@@ -21,5 +21,5 @@ def merge(arr1, arr2):
     return merged_array
 
 
-results = merge([3,4,5], [])
+results = merge([3,4,5], [7,8,9,10])
 print(results)
