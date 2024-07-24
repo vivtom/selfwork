@@ -9,3 +9,5 @@ def majorityElement(nums):
         else:
             count -= 1
     return res
+result = majorityElement([1,1,2,2,1,1])
+print(result)
