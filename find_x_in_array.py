@@ -7,5 +7,5 @@ for i in range(len(array)): #we want to stop after the last element hence here w
             found = True
             break
 if not found :
-        print('it does not exist ','\ntry with some other number')
+        print('it does not exist ','\ntry with some other number.')
         
