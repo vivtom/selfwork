@@ -1,3 +1,5 @@
+![Image](https://github.com/user-attachments/assets/5905cb96-e872-4c04-b16b-410973cc7d3d)
+
 
 This repository is dedicated to practicing data structures, algorithms, and solving coding problems to enhance my programming skills and logical thinking. 
 It includes a variety of problems and solutions aimed at improving problem-solving abilities and preparing for technical interviews.
