@@ -1,9 +1,9 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        dict1 = {}
-        for i,n in enumerate (nums):
-            var1 = target - n
-            if  var1 in dict1:
-                return [i and dict1[var1]]
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash1 = {}
+        for i,val in enumerate(nums):
+            diff = target - val
+            if diff in hash1:
+                return [hash1[diff],i]
             else:
-                dict1[n] = i
+                hash1[val] = i
