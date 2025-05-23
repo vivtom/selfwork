@@ -1,3 +1,4 @@
+''' blind 3 in blind75 list '''
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hash1 = {}
