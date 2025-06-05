@@ -1,13 +1,13 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        dict1 = {')' : '(', '}' : '{', ']': '['}
         stack = []
-        closetoopen = {')':'(', '}' : '{', ']' : '['}
-        for c in s:
-            if c in closetoopen:
-                if stack and stack[-1] == closetoopen[c]:
+        for i in s:
+            if i in dict1:
+                if stack and stack[-1] == dict1[i]:
                     stack.pop()
                 else:
                     return False
             else:
-                stack.append(c)
-        return True if not stack else False
+                stack.append(i)
+        return False if stack else True
